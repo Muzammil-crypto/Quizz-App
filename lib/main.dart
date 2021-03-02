@@ -6,8 +6,9 @@ void main() {
 
 class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
+    //anything
     return MaterialApp(
-      home: widget(child: Padding('Hey Bro!')),
+      home: Text('Hey Bro!'),
     );
   }
 }
